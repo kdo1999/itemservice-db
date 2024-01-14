@@ -34,7 +34,7 @@ dependencies {
     testCompileOnly 'org.projectlombok:lombok'
     testAnnotationProcessor 'org.projectlombok:lombok'
     //MyBatis 추가
-    implementation 'org.mybatis.spring.boot:mybatis-spring-boot-starter:3.0.1'
+    implementation 'org.mybatis.spring.boot:mybatis-spring-boot-starter:3.0.3'
 }
 
 tasks.named('test') {
